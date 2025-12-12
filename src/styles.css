@@ -25,6 +25,10 @@ body {
     padding-left: 7rem; 
 }
 
+.page-left { 
+    padding-left: 20rem; 
+}
+
 .rows img {
   max-width: 100%;
   height: auto;
