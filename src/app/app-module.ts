@@ -8,6 +8,8 @@ import { Skills } from './skills/skills';
 import { Shiny } from './shiny/shiny';
 import { Recipes } from './recipes/recipes';
 import { Accolades } from './accolades/accolades';
+import { Buggaboo } from './buggaboo/buggaboo';
+import { Projects } from './projects/projects';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { Accolades } from './accolades/accolades';
     Skills,
     Shiny,
     Recipes,
-    Accolades
+    Accolades,
+    Buggaboo,
+    Projects
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { Skills } from './skills/skills';
 import { Recipes } from './recipes/recipes';
 import { Accolades } from './accolades/accolades';
 import { Shiny } from './shiny/shiny';
+import { Projects } from './projects/projects';
 
 const routes: Routes = [
 
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'skills', component: Skills },
   { path: 'shiny', component: Shiny },
   { path: 'recipes', component: Recipes },
+  { path: 'projects', component: Projects },
   { path: 'accolades', component: Accolades },
   { path: '**', redirectTo: '/' },
 
